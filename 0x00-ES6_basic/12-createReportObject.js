@@ -1,6 +1,5 @@
-/** 
- * This function will return previous function val
- */
+// This function will return previous function val
+
 export default function createReportObject(employeesList) {
   return {
     allEmployees: employeesList,

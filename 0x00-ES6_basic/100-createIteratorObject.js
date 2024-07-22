@@ -1,4 +1,4 @@
-// This function will take into argument a report 
+// This function will take into argument a report
 // Object created with the previous function createReportObject
 
 export default function createIteratorObject(report) {

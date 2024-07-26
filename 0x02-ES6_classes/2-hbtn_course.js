@@ -6,9 +6,6 @@ export default class HolbertonCourse {
     this.students = students;
   }
 
-  /**
-   * @param {String} name
-   */
   get name() {
     return this._name;
   }

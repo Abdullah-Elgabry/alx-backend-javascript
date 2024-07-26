@@ -1,10 +1,3 @@
-/**
- * Implement a class named HolbertonCourse
- * Constructor attributes:
- * name (String)
- * length (Number)
- * students (array of Strings)
- */
 export default class HolbertonCourse {
 
   constructor(name, length, students) {

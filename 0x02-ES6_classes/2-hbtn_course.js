@@ -1,5 +1,14 @@
+/**
+ * Implement a class named HolbertonCourse
+ */
 export default class HolbertonCourse {
-
+  /**
+   * Creates a new @see {@link HolbertonCourse}.
+   *
+   * @param {String} name - The name of the course.
+   * @param {Number} length - How long the course is (in months).
+   * @param {String[]} students - The names of students in the course.
+   */
   constructor(name, length, students) {
     this.name = name;
     this.length = length;
@@ -7,14 +16,14 @@ export default class HolbertonCourse {
   }
 
   /**
-   * course Name
+   * course name getter
    */
   get name() {
     return this._name;
   }
 
   /**
-   * set course name.
+   * course name setter
    */
   set name(value) {
     if (typeof value !== 'string') {
@@ -24,14 +33,14 @@ export default class HolbertonCourse {
   }
 
   /**
-   * COURSE getter
+   * course len getter
    */
   get length() {
     return this._length;
   }
 
   /**
-   * COURSE setter
+   * course len setter
    */
   set length(value) {
     if (typeof value !== 'number') {
@@ -41,14 +50,14 @@ export default class HolbertonCourse {
   }
 
   /**
-   * students getter
+   * students name getter
    */
   get students() {
     return this._students;
   }
 
   /**
-   * students setter
+   * students name Setter
    */
   set students(value) {
     if (!(value instanceof Array)) {

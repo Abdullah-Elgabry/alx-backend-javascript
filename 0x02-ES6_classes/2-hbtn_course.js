@@ -1,4 +1,5 @@
 export default class HoldbertonCourse {
+
   constructor(name, length, students) {
     this.name = name;
     this.length = length;

@@ -1,6 +1,3 @@
-// Counts the students in a CSV data file.
-
-
 const express = require('express');
 const fs = require('fs');
 

@@ -1,6 +1,4 @@
 // Counts the students in a CSV data file.
-
-
 const http = require('http');
 const fs = require('fs');
 
